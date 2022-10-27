@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ComposableArchitecture"
+  spec.name         = "Dependencies"
   spec.version      = "0.44.1"
   spec.summary      = "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind."
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/ComposableArchitecture/**/*.swift"
+  spec.source_files  = "Sources/Dependencies/**/*.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -109,7 +109,6 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -133,11 +132,8 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "CasePaths", "~> 0.10.0"
-  spec.dependency "CombineSchedulers", "~> 0.8.0"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.5.0"
-  spec.dependency "IdentifiedCollections", "~> 0.4.1"
-
-  spec.dependency "CustomDump", "~> 0.6.0"
+  s.dependency "Clocks", "~> 0.1.4"
+  s.dependency "CombineSchedulers", "~> 0.8.0"
+  s.dependency "XCTestDynamicOverlay", "~> 0.5.0"
 
 end
