@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "IdentifiedCollections"
-  spec.version      = "0.4.1"
-  spec.summary      = "A library of data structures for working with collections of identifiable elements in an ergonomic, performant way."
+  spec.name         = "OrderedCollections"
+  spec.version      = "1.0.2"
+  spec.summary      = "Swift Collections is an open-source package of data structure implementations for the Swift programming language."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  A library of data structures for working with collections of identifiable elements in an ergonomic, performant way.
+  Swift Collections is an open-source package of data structure implementations for the Swift programming language.
                    DESC
 
-  spec.homepage     = "https://github.com/pointfreeco/swift-identified-collections"
+  spec.homepage     = "https://github.com/apple/swift-collections"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Point-Free" => "support@pointfree.co" }
+  spec.author             = { "Apple" => "support@apple.com" }
   # Or just: spec.author    = "Point-Free"
   # spec.authors            = { "Point-Free" => "support@pointfree.co" }
   # spec.social_media_url   = "https://twitter.com/Point-Free"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/pointfreeco/swift-identified-collections.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/apple/swift-collections.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/IdentifiedCollections/**/*.swift"
+  spec.source_files  = "Sources/OrderedCollections/**/*.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -133,5 +133,4 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.dependency "OrderedCollections", "~> 1.0.2"
 end
