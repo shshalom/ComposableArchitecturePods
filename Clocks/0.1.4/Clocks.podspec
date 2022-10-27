@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  #spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Apple" => "support@apple.com" }
+  spec.author             = { "Point-Free" => "support@pointfree.co" }
   # Or just: spec.author    = "Point-Free"
   # spec.authors            = { "Point-Free" => "support@pointfree.co" }
   # spec.social_media_url   = "https://twitter.com/Point-Free"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/Clocks/**/*.swift"
+  spec.source_files  = "Sources/**/*.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 

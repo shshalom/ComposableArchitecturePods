@@ -137,6 +137,7 @@ Pod::Spec.new do |spec|
   spec.dependency "CombineSchedulers", "~> 0.8.0"
   spec.dependency "XCTestDynamicOverlay", "~> 0.5.0"
   spec.dependency "IdentifiedCollections", "~> 0.4.1"
+  spec.dependency "Clocks", "~> 0.1.4"
   spec.dependency "CustomDump", "~> 0.6.0"
 
 end
