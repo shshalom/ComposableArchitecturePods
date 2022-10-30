@@ -72,7 +72,7 @@ Pod::Spec.new do |spec|
   #spec.watchos.deployment_target = "6.0"
   #spec.tvos.deployment_target = "13.0"
   spec.swift_version = '5.7'
-  s
+  
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
