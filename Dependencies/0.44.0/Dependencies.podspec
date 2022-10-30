@@ -69,10 +69,10 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.ios.deployment_target = "15.0"
-  spec.osx.deployment_target = "10.15"
-  spec.watchos.deployment_target = "6.0"
-  spec.tvos.deployment_target = "13.0"
-  spec.swift_version = '5.7'
+  # spec.osx.deployment_target = "10.15"
+  # spec.watchos.deployment_target = "6.0"
+  # spec.tvos.deployment_target = "13.0"
+  # spec.swift_version = '5.7'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/Dependencies/**/*.swift"
+  spec.source_files  = "Sources/**/*.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 
