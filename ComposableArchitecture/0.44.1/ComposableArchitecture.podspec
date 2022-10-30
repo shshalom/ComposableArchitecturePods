@@ -69,10 +69,10 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.ios.deployment_target = "15.0"
-  spec.osx.deployment_target = "10.15"
-  spec.watchos.deployment_target = "6.0"
-  spec.tvos.deployment_target = "13.0"
-  spec.swift_version = '5.7'
+  #spec.osx.deployment_target = "10.15"
+  #spec.watchos.deployment_target = "6.0"
+  #spec.tvos.deployment_target = "13.0"
+  #spec.swift_version = '5.7'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   #spec.dependency "CombineSchedulers", "~> 0.8.0"
   #spec.dependency "XCTestDynamicOverlay", "~> 0.5.0"
   spec.dependency "IdentifiedCollections", "~> 0.4.1"
-  spec.dependency "Dependencies"
+  spec.dependency "Dependencies", "~> 0.44.1"
   spec.dependency "CustomDump", "~> 0.6.0"
 
 end
