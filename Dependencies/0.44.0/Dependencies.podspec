@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/Dependencies/**/*.swift"
   spec.module_name = "Dependencies"
   
-end
+
   # spec.public_header_files = "Classes/**/*.h"
 
 
