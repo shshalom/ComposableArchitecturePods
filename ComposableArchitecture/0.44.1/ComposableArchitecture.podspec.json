@@ -28,6 +28,9 @@
     ],
     "CustomDump": [
       "~> 0.6.0"
-    ]
+    ],
+    "Clocks": [ "~> 0.1.4" ],
+    "CombineSchedulers": ["~> 0.8.0"],
+    "XCTestDynamicOverlay": [ "~> 0.5.0"]
   }
 }
