@@ -1,0 +1,36 @@
+{
+  "name": "ComposableArchitecture",
+  "version": "0.44.1",
+  "summary": "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.",
+  "description": "The Composable Architecture (TCA, for short) is a library for building applications in a consistent and understandable way,\nwith composition, testing, and ergonomics in mind. It can be used in SwiftUI, UIKit, and more, and on any Apple platform (iOS, macOS, tvOS, and watchOS).",
+  "homepage": "https://www.pointfree.co/collections/composable-architecture",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Point-Free": "support@pointfree.co"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://github.com/pointfreeco/swift-composable-architecture.git",
+    "tag": "0.44.1"
+  },
+  "source_files": "Sources/ComposableArchitecture/**/*.swift",
+  "dependencies": {
+    "CasePaths": [
+      "~> 0.10.0"
+    ],
+    "IdentifiedCollections": [
+      "~> 0.4.1"
+    ],
+    "Dependencies": [
+      "~> 0.44.1"
+    ],
+    "CustomDump": [
+      "~> 0.6.0"
+    ]
+  }
+}
