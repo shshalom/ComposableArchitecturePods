@@ -26,9 +26,6 @@
     "IdentifiedCollections": [
       "~> 0.4.1"
     ],
-    "Dependencies": [
-      "~> 0.44.1"
-    ],
     "CustomDump": [
       "~> 0.6.0"
     ]
