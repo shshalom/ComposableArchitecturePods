@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Dependencies"
+  spec.name         = "Dependencies1"
   spec.version      = "0.44.0"
   spec.summary      = "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind."
 
